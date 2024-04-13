@@ -1,0 +1,18 @@
+# Template file for 'voidstudio-video'
+pkgname=voidstudio-video
+version=0.1
+revision=1
+build_style=meta
+
+#TODO
+#osspd devede obs-studio pipewire-pulse xjadeo
+depends="
+	audacity blender ffmpeg
+	inkscape k3b kdenlive 
+	subtitleeditor
+	synfigstudio 
+"
+short_desc="Voidbuntu Studio - Video"
+maintainer="Kevin M. Dulzo <kdulzo@gerp.io>"
+license="Public Domain"
+homepage="http://www.github.org"

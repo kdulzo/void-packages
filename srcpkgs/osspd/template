@@ -1,0 +1,21 @@
+# Template file for 'osspd'
+pkgname=osspd
+version=1.3.2
+revision=1
+build_style=gnu-makefile
+make_cmd="make"
+hostmakedepends="pkg-config"
+makedepends="fuse-devel libpulseaudio pulseaudio-devel alsa-lib-devel"
+depends=""
+short_desc="OSS Proxy for Userland Sound Devices"
+maintainer="Kevin M. Dulzo <kdulzo@gerp.io>"
+license="GPL-2.0"
+homepage="https://sourceforge.net/projects/osspd/"
+#build_wrksrc=
+#changelog=""
+distfiles="https://downloads.sourceforge.net/project/osspd/ossp-${version}.tar.gz"
+checksum=222c6abb17e661fb1d02a9a10d7791139f5177003a00e334e37e731d3fe67a65
+
+do_build() {
+	make
+}
