@@ -1,0 +1,14 @@
+# Template file for 'oatmeal'
+pkgname=oatmeal
+version=0.13.0
+revision=1
+build_style=cargo
+makedepends="oniguruma-devel pkg-config"
+short_desc="Text-based AI Chat App"
+maintainer="Kevin M. Dulzo <kdulzo@gerp.io>"
+license="MIT"
+homepage="https://github.com/dustinblackman/oatmeal"
+changelog="https://raw.githubusercontent.com/dustinblackman/oatmeal/main/CHANGELOG.md"
+distfiles="https://github.com/dustinblackman/oatmeal/archive/refs/tags/v0.13.0.tar.gz"
+checksum=dee11f69eabc94adeb58edc5ecf5b51556bd4dec3a6a3d66c3a5e603aa8a0256
+
