@@ -1,0 +1,14 @@
+# Template file for 'mods'
+pkgname=mods
+version=1.2.2
+revision=1
+build_style=go
+go_import_path="github.com/charmbracelet/mods"
+go_ldflags="-X main.Version=v${version}"
+short_desc="AI on the command line"
+maintainer="Kevin M. Dulzo <kdulzo@gerp.io>"
+license="MIT"
+homepage="https://github.com/charmbracelet/mods"
+changelog="https://github.com/charmbracelet/mods/releases"
+distfiles="https://github.com/charmbracelet/mods/archive/refs/tags/v${version}.tar.gz"
+checksum=67adced6190624824636fb80b5185a8606e3ad9c821d7e8f931d6d3822da51fe
