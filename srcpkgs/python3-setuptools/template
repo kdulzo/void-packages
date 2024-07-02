@@ -1,6 +1,6 @@
 # Template file for 'python3-setuptools'
 pkgname=python3-setuptools
-version=69.5.0
+version=70.1.0
 revision=1
 build_style=python3-module
 hostmakedepends="python3-devel"
@@ -11,7 +11,7 @@ license="MIT"
 homepage="https://github.com/pypa/setuptools"
 changelog="https://raw.githubusercontent.com/pypa/setuptools/master/CHANGES.rst"
 distfiles="${PYPI_SITE}/s/setuptools/setuptools-${version}.tar.gz"
-checksum=8d881f842bfc0e29e93bc98a2e650e8845609adff4d2989ba6c748e67b09d5be
+checksum=01a1e793faa5bd89abc851fa15d0a0db26f160890c7102cd8dce643e886b47f5
 provides="python3-distribute-${version}_1"
 replaces="python3-distribute>=0"
 # Tests rely on jaraco.path, which relies on singledispatch, both unpackaged;
